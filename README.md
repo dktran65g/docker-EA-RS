@@ -24,3 +24,9 @@ Self setup docker with three node replica set running EA
 - This will stop all the mongoX docker,
 - Remove the docker images
 - Remove all teh image volumes.
+
+## Compass URI string for connection to this docker Replica-Set
+mongodb://mongo1:27017,mongo2:27018,mongo3:27019/
+
+##  Mongo Shell string for connection to this docker Replica-Set
+mongosh "mongodb://mongo1:27017,mongo2:27018,mongo3:27019/?replicaSet=myReplicaSet&authSource=admin"
