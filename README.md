@@ -1,6 +1,6 @@
 # docker-EA-RS
 This is a docker container that automatically do self-setup with latest EA on the three node replica set.
-The replica set will automtically intitial the PSS confogiration.
+The replica set will automtically intitial the Primmary-Secondary-Secondary (PSS) configuration.
 
 ## Preparation (only once)
 1. Make sure your /etc/hosts file have this line entry. 
